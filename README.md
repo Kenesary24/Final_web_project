@@ -1,7 +1,7 @@
-# Red Dead Redemption 2 — Website about the legendary game
+# Final web project
+I created this website for my final web programming exam.
 
-https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg )
-
+![RDR2 Banner](https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg)
 ## About the project
 
 This is an information site dedicated to the game **Red Dead Redemption 2** — one of the most atmospheric and popular games from Rockstar Games studio. Here you will find:
