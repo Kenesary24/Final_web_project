@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Images/logo.jpeg" type="image/x-icon">
+    <title>Sign up</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Responsive -->
+    <link rel="stylesheet" href="../Css/register.css">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!-- Jsdeliver -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="../Js/register.js"></script>
+</head>
+
+<body>
+    <!-- Grid -->
+    <div class="container">
+        <a class="navbar-brand" href="Index.html"><img src="../Images/RDR2.svg" alt="RDR2" style="margin: 20% 5% !important;"></a>
+        <form id="signupForm" action="#">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="name">First name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Name" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="secondname">Second name</label>
+                    <input type="text" class="form-control" id="secondname" placeholder="Second name">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="address">Street Address</label>
+                <input type="text" class="form-control" id="address" placeholder="Groove Street" required>
+            </div>
+        <div style="padding-right: 20px;" class="form-row col-md-6">
+            <div class="form-group">
+                <label class="">Choose your gender</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radioOption" id="option1" value="option1" >
+                    <label class="form-check-label" for="option1">Male</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radioOption" id="option2" value="option2">
+                    <label class="form-check-label" for="option2">Female</label>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label class="col-md-6">Choose</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="checkbox1" id="checkbox1">
+                    <label class="form-check-label" for="checkbox1">Prime avatar</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="checkbox2" id="checkbox2">
+                    <label class="form-check-label" for="checkbox2">Prime account</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="checkbox1" id="checkbox1">
+                    <label class="form-check-label" for="checkbox1">Default avatar</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="checkbox2" id="checkbox2">
+                    <label class="form-check-label" for="checkbox2">Account</label>
+                </div>
+            </div>
+        </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="region">Region</label>
+                    <input type="text" class="form-control" id="region" placeholder="Los Santos">
+                </div>
+                <div class="form-group col-md-3 col-6">
+                    <label for="city">City</label>
+                    <select class="form-control" name="city" id="city" required>
+                        <option value="Ch"disabled selected>Choose a sity</option>
+                        <option value="AL">Almaty</option>
+                        <option value="AS">Astana</option>
+                        <option value="SH">Shymkent</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-3 col-6" >
+                    <label for="age">Age</label>
+                    <input type="number" class="form-control" id="age" min="0" max="100" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="tos" required>
+                    <label class="custom-control-label" for="tos">I confirm</label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-danger">Sign up</button>
+        </form>
+    </div>
+    
+    <footer class="footer">
+        <img id="footer" src="../Images/footer.jpeg" alt="">
+    </footer>
+</body>
+
+</html>

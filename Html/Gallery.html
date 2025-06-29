@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Images/logo.jpeg" type="image/x-icon">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="../Css/gallery.css">
+    <!-- Responsive JS -->
+    <script src="../Js/all.js"></script>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"crossorigin="anonymous"></script>
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"crossorigin="anonymous"></script>
+    <!-- Bootstrap JS-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"crossorigin="anonymous"></script>
+    <title>Gallery</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-black fixed-top">
+        <a class="navbar-brand" href="Index.html"><img src="../Images/RDR2.svg" alt="RDR2"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../Html/Index.html">Overview</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Progress.html">Progress</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Explore
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Gang.html">The Van der Linde Gang</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Cities.html">Location</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Wildliffe.html">Wildlife</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Weaponry.html">Weaponry</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Media
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Gallery.html">Gallery</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Art.html">Art</a>
+                    </div>
+                </li>
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link signUp-btn" href="Sign_up.html">Sign up</a>
+                </div>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <img id="otherPageAvatar" alt="Avatar" style="width: 40px; height: 40px; border-radius: 50%;">
+                    <span id="user"></span>
+                </a>
+                <div class="dropdown-menu"  aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="Index.html">Log out</a>
+                </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+ 
+   
+    <div class="gallery" id="imageGallery">
+        <a href="../Images/Gallery/picture1.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture1.jpg" alt="Picture 1">
+        </a>
+        <a href="../Images/Gallery/picture2.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture2.jpg" alt="Picture 2">
+        </a>
+        <a href="../Images/Gallery/picture3.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture3.jpg" alt="Picture 3">
+        </a>
+        <a href="../Images/Gallery/picture4.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture4.jpg" alt="Picture 4">
+        </a>
+        <a href="../Images/Gallery/picture5.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture5.jpg" alt="Picture 5">
+        </a>
+        <a href="../Images/Gallery/picture6.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture6.jpg" alt="Picture 6">
+        </a>
+        <a href="../Images/Gallery/picture7.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture7.jpg" alt="Picture 7">
+        </a>
+        <a href="../Images/Gallery/picture8.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture8.jpg" alt="Picture 8">
+        </a>
+        <a href="../Images/Gallery/picture9.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture9.jpg" alt="Picture 9">
+        </a>
+        <a href="../Images/Gallery/picture10.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture10.jpg" alt="Picture 10">
+        </a>
+        <a href="../Images/Gallery/picture11.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture11.jpg" alt="Picture 11">
+        </a>
+        <a href="../Images/Gallery/picture12.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture12.jpg" alt="Picture 12">
+        </a>
+        <a href="../Images/Gallery/picture13.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture13.jpg" alt="Picture 13">
+        </a>
+        <a href="../Images/Gallery/picture14.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture14.jpg" alt="Picture 14">
+        </a>
+        <a href="../Images/Gallery/picture15.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture15.jpg" alt="Picture 15">
+        </a>
+        <a href="../Images/Gallery/picture16.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture16.jpg" alt="Picture 16">
+        </a>
+        <a href="../Images/Gallery/picture17.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture17.jpg" alt="Picture 17">
+        </a>
+        <a href="../Images/Gallery/picture18.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture18.jpg" alt="Picture 18">
+        </a>
+        <a href="../Images/Gallery/picture19.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture19.jpg" alt="Picture 19">
+        </a>
+        <a href="../Images/Gallery/picture20.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture20.jpg" alt="Picture 20">
+        </a>
+        <a href="../Images/Gallery/picture21.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture21.jpg" alt="Picture 21">
+        </a>
+        <a href="../Images/Gallery/picture22.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture22.jpg" alt="Picture 22">
+        </a>
+        <a href="../Images/Gallery/picture23.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture23.jpg" alt="Picture 23">
+        </a>
+        <a href="../Images/Gallery/picture24.jpg" data-bs-toggle="modal" data-bs-target="#imageModal">
+            <img src="../Images/Gallery/picture24.jpg" alt="Picture 24">
+        </a>
+    </div>
+    <footer>
+        <img id="footer" src="../Images/footer.jpeg" alt="">
+    </footer>
+
+</body>
+</html>
