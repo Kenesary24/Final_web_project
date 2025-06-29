@@ -24,9 +24,14 @@ The website is designed using:
 
 ## How to launch
 Clone the repository:
+```bash
 git clone https://github.com/your-username/rdr2-website.git
+```
 
 Откройте index.html в браузере
+
+## Attention
+Due to the large volume of the image files, only a portion was uploaded, and if some images don't load when the site is launched, that's fine.
 
 
 
