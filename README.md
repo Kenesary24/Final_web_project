@@ -19,6 +19,14 @@ The website is designed using:
 - **HTML5** - page structure  
 - **CSS3 / Tailwind** - style and adaptability  
 - **JavaScript** - dynamic content
+- **JSON**
+
+
+## How to launch
+Clone the repository:
+git clone https://github.com/your-username/rdr2-website.git
+
+Откройте index.html в браузере
 
 
 
