@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+/* ---------------------------login-------------------------- */
+#loginForm {
+    color: white;
+    margin-top: 10%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+input{
+    display: block;
+    width: 60%;
+    height: 35PX;
+    font-size: 25px;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+#loginForm button{
+    padding: 5px 35PX;
+    margin-bottom: 10px;
+    color: white;
+    background-color: darkred;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+#profile {
+    display: none;
+}
+#loginForm label{
+    margin: 10px;
+}
+/* ----------------------------------------------------------- */
+@font-face{
+    font-family: myFont;
+    src: url(chinese\ rocks\ rg.otf);
+}
+body{
+    font-family: myFont !important;
+    margin: 0% !important;
+}
+/* ---------------------------Navbar----------------------- */
+.navbar-dark .navbar-brand, .navbar-dark .navbar-toggler-icon {
+    padding: 10px;
+    padding-left: 100px;
+}
+.navbar-nav .nav-link {
+    color: gainsboro !important ;
+    margin-right: 40px; 
+}
+.navbar-nav .nav-link:hover {
+    color: #f3f3f3 !important;
+} 
+/* ---------------------Responsive----------------------- */
+
+/* Phones */
+@media (max-width: 767px) {
+    .navbar-dark .navbar-brand,
+    .navbar-dark .navbar-toggler-icon {
+        padding-left: 0px;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 10px;
+        margin-bottom: 5px;
+    }
+    .content{
+        margin-top: 4rem;
+        font-size: 6px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-dark .navbar-brand,
+    .navbar-dark .navbar-toggler-icon {
+        padding-left: 2em;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    .content {
+        font-size: 10px;
+    }
+}
+
+/* Laptop */
+@media (min-width: 992px) and (max-width: 1024px) {
+    .navbar-dark .navbar-brand,
+    .navbar-dark .navbar-toggler-icon {
+        padding-left: 5em;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 1rem;
+        font-size: 20px;
+    }
+
+    .content {
+        font-size: 10px;
+    }
+}
+
+/* --------------------------Section------------------------- */
+
+.content p {
+    background-image: url(../Images/background1.jpeg);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 130px 15px;
+    font-size: 2em;
+}
+.content img {
+    width: 100%;
+    height: auto;
+}
+/* -------------------------Footer--------------------------- */
+.footer{
+    display: flex;
+}
+#footer{
+    margin: -125px 0 0;
+    position: relative;
+    width: 100%;
+    height: 50%;
+};
+

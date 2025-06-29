@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@font-face{
+    font-family: myFont;
+    src: url(chinese\ rocks\ rg.otf);
+}
+body{
+    font-family: myFont !important;
+    background-color: black !important;
+    color: white !important;
+}
+/* -------------------------Navbar----------------------------- */
+.navbar-dark .navbar-brand, .navbar-dark .navbar-toggler-icon {
+    padding: 10px;
+    padding-left: 100px;
+}
+.navbar-nav .nav-link {
+    color: gainsboro !important ;
+    margin-right: 40px; 
+}
+.navbar-nav .nav-link:hover {
+    color: #f3f3f3 !important;
+} 
+/* -------------------------Responsive-------------------------- */
+
+/* Phones */
+@media (max-width: 767px) {
+    .navbar-dark .navbar-brand,
+    .navbar-dark .navbar-toggler-icon {
+        padding-left: 0px;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 10px;
+        margin-bottom: 5px;
+    }
+    .content{
+        margin-top: 4rem;
+        font-size: 6px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-dark .navbar-brand,
+    .navbar-dark .navbar-toggler-icon {
+        padding-left: 2em;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+}
+
+/* Laptop */
+@media (min-width: 992px) and (max-width: 1024px) {
+    .navbar-dark .navbar-brand,
+    .navbar-dark .navbar-toggler-icon {
+        padding-left: 5em;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 1rem;
+        font-size: 20px;
+    }
+
+}
+
+/* --------------------------Section-------------------------- */
+.progress-section{
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 5%;
+}
+.game-info-section{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.progress-section table, .game-info-section table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.game-info-section th, .game-info-section td{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 8px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.progress-section th, .progress-section td {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 8px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.progress-section th ,.game-info-section th{
+    background-color:rgb(146,1,13);
+}
+
+
+/* ----------------------------Footer----------------------- */
+#footer{
+    position: relative;
+    width: 100%;
+    height: 25%;
+};

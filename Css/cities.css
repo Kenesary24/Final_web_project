@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: myFont;
+    src: url(chinese\ rocks\ rg.otf);
+}
+body{
+    font-family: myFont !important;
+    background-color: black !important;
+    color: white !important;
+}
+
+/* -------------------------Navbar--------------------- */
+.navbar-dark .navbar-brand, .navbar-dark .navbar-toggler-icon {
+    padding: 10px;
+    padding-left: 100px;
+}
+.navbar-nav .nav-link {
+    color: gainsboro !important ;
+    margin-right: 40px; 
+    
+}
+.navbar-nav .nav-link:hover {
+    color: #f3f3f3 !important;
+} 
+/* -------------------------Responsive-------------------------- */
+
+/* Phones */
+@media (min-width: 320px) and (max-width: 767px) {
+    .navbar-dark .navbar-brand,
+    .navbar-dark .navbar-toggler-icon {
+        padding-left: 0px;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 10px;
+        margin-bottom: 5px;
+    }
+    body{
+        font-size: 8px !important;
+    }
+    p{
+        font-size: 8px !important;   
+    }
+    h1{
+        font-size: 30px !important;
+    }
+    .heading-block{
+        margin: 50px 50px;
+    }
+    .text-block{
+        width: 40%!important;
+        position: absolute!important;
+        margin-top: 16em!important;
+        padding-left: 34%!important;
+        font-size: 25px!important;
+    }
+    *, ::after, ::before {
+        box-sizing: content-box !important;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-dark .navbar-brand,
+    .navbar-dark .navbar-toggler-icon {
+        padding-left: 2em;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    p{
+        font-size: 20px !important;   
+    }
+    h1{
+        font-size: 50px !important;
+    }
+    .heading-block{
+        margin: 10rem;
+    }
+    .text-block{
+        width: 40%!important;
+        position: absolute!important;
+        margin-top: 24em!important;
+        padding-left: 40%!important;
+        font-size: 30px!important;
+    }
+    *, ::after, ::before {
+        box-sizing: content-box !important;
+    }
+}
+
+/* Laptop */
+@media (min-width: 992px) and (max-width: 1024px) {
+    .navbar-dark .navbar-brand,
+    .navbar-dark .navbar-toggler-icon {
+        padding-left: 5em;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 1rem;
+        font-size: 20px;
+    }
+    p{
+        font-size: 20px!important;
+    }
+    .heading-block{
+        margin-left: 7rem;
+    }
+    .text-block{
+        margin-bottom: 2rem;
+    }
+
+}
+/* ---------------------Section--------------------------- */
+.city-section {
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+.city-title {
+    margin-top: 2em;
+    font-size: 5em;
+}
+
+.city-description {
+    font-size: 1.5em;
+    margin: 20px;
+}
+
+/* -----------------------Content------------------------- */
+.container{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.container img{
+    width: 100%;
+    height: 30em;
+}
+
+.container img:nth-child(1){
+    margin-top: 30%;
+    margin-bottom: 5%
+}
+
+.heading-block{
+    position: absolute;
+    margin-top: 55em;
+    margin-right: 15%;
+    padding-right: 25em;
+}
+.heading-block h1{
+    font-size: 5.5rem;
+}
+.text-block{
+    width: 80%;
+    position: absolute;
+    margin-top: 36em;
+    padding-left: 33rem;
+    font-size: 25px;
+}
+/* -------------------------Footer-------------------------- */
+#footer{
+    margin: -10px 0 0;
+    position: relative;
+    width: 100%;
+    height: 50%;
+};
+
+
+
