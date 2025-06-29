@@ -19,7 +19,7 @@ The website is designed using:
 - **HTML5** - page structure  
 - **CSS3 / Tailwind** - style and adaptability  
 - **JavaScript** - dynamic content
-- **JSON**
+- **JSON** - save data (password)
 
 
 ## How to launch
@@ -28,7 +28,7 @@ Clone the repository:
 git clone https://github.com/your-username/rdr2-website.git
 ```
 
-Open up index.html in the browser
+Open up **index.html** in the browser
 
 ## Attention
 Due to the large volume of the image files, only a portion was uploaded, and if some images don't load when the site is launched, that's fine.
