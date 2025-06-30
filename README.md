@@ -31,7 +31,7 @@ git clone https://github.com/your-username/rdr2-website.git
 Open up **index.html** in the browser
 
 ## Attention
-Due to the large volume of the image files, only a portion was uploaded, and if some images don't load when the site is launched, that's fine.
+Due to the large number of image files, only a portion of them have been uploaded, and it is normal for some images not to load when the website is launched. Additionally, due to my inexperience, the website may experience unexpected errors, so please be understanding.
 
 
 
